@@ -1,0 +1,330 @@
+/*
+Theme Name: Superior Osaka WordPress Theme
+Theme URI: http://themeforest.net/user/DigitalCavalry/portfolio
+Author: Digital Cavalry   
+Author URI: http://themeforest.net/user/DigitalCavalry
+Description: Superior and Powerfull Premium WordPress Theme
+Version: 1.1
+License: The PHP/HTML/CSS/JavaScript/Design code are licensed according to the license purchased. You can read about it on ThemeForest.net 
+License URI: http://themeforest.net/licenses/regular_extended 
+
+Tags: responsive, content builder, modern, clean, magazine, portfolio, blog, multiuse
+*/
+
+body {
+    font-family: DIN-Regular;
+}
+
+.wp-caption, 
+.wp-caption-text,
+.sticky, 
+.gallery-caption,
+.bypostauthor 
+{
+    
+}
+
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+@font-face{
+	font-family:DIN-BlackAlternate;
+	src:url('fonts/DIN-BlackAlternate.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DINPro;
+	src:url('fonts/DIN-Bold.otf');
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DINPro;
+	src:url('fonts/DIN-MediumItalic.otf');
+	font-weight: 500;
+	font-style: italic;
+}
+
+
+@font-face{
+	font-family:DIN-BlackExpert;
+	src:url('fonts/DIN-BlackExpert.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-LightAlternate;
+	src:url('fonts/DIN-LightAlternate.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DINPro;
+	src:url('fonts/DIN-Medium.otf');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-BlackItalicAlt;
+	src:url('fonts/DIN-BlackItalicAlt.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-LightExpert;
+	src:url('fonts/DIN-LightExpert.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DINMittelschrift;
+	src:url('fonts/DINMittelschrift.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-BlackItalicExp;
+	src:url('fonts/DIN-BlackItalicExp.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-LightItalicAlt;
+	src:url('fonts/DIN-LightItalicAlt.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DINNeuzeitGrotesk-BoldCond;
+	src:url('fonts/DINNeuzeitGrotesk-BoldCond.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-BlackItalic;
+	src:url('fonts/DIN-BlackItalic.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-LightItalicExp;
+	src:url('fonts/DIN-LightItalicExp.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DINNeuzeitGrotesk-Light;
+	src:url('fonts/DINNeuzeitGrotesk-Light.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-Black;
+	src:url('fonts/DIN-Black.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DINPro;
+	src:url('fonts/DIN-LightItalic.otf');
+	font-weight: 200;
+	font-style: italic;
+}
+
+
+@font-face{
+	font-family:DIN-RegularAlternate;
+	src:url('fonts/DIN-RegularAlternate.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-BoldAlternate;
+	src:url('fonts/DIN-BoldAlternate.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DINPro;
+	src:url('fonts/DIN-Light.otf');
+	font-weight: 200;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-;
+	src:url('fonts/DIN-RegularExpert.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-BoldExpert;
+	src:url('fonts/DIN-BoldExpert.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-MediumAlternate;
+	src:url('fonts/DIN-MediumAlternate.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-RegularItalicAlt;
+	src:url('fonts/DIN-RegularItalicAlt.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-BoldItalicAlt;
+	src:url('fonts/DIN-BoldItalicAlt.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-MediumExpert;
+	src:url('fonts/DIN-MediumExpert.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-RegularItalicExp;
+	src:url('fonts/DIN-RegularItalicExp.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-BoldItalicExp;
+	src:url('fonts/DIN-BoldItalicExp.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-MediumItalicAlt;
+	src:url('fonts/DIN-MediumItalicAlt.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-RegularItalic;
+	src:url('fonts/DIN-RegularItalic.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-BoldItalic;
+	src:url('fonts/DIN-BoldItalic.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-MediumItalicExp;
+	src:url('fonts/DIN-MediumItalicExp.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face{
+	font-family:DIN-Regular;
+	src:url('fonts/DIN-Regular.otf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+ul.list-chapters {
+	background-color: black;
+	padding:0 5px;
+	font-size:13px;
+	color:black;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	list-style:none;
+}
+
+ul.list-chapters li {
+	float:left;
+	padding:7px 8px;
+	border-top:solid 2px;	
+	display:inline-block;
+}
+ul.list-chapters a {
+	display:block;
+	text-decoration:none;
+	color:#bbbbbb;
+}
+
+ul.list-chapters li.active {
+	border-top: solid 3px;
+	color:red;
+	font-weight:bold;
+}
+
+ul.list-chapters li:hover {
+	background:red;
+	cursor:pointer;
+}
