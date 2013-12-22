@@ -294,6 +294,7 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 	font-style: normal;
 }
 
+/*
 ul.list-chapters {
 	background-color: black;
 	padding:0 5px;
@@ -327,4 +328,4 @@ ul.list-chapters li.active {
 ul.list-chapters li:hover {
 	background:red;
 	cursor:pointer;
-}
+}*/
